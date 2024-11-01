@@ -1,3 +1,9 @@
 export default function Home() {
-  return <h1>hello world</h1>;
+  return (
+    <div className="flex font-extrabold">
+      Hello Subscript you great,
+      <br />
+      <h1 className="text-2xl font-sylvaincodes">This is a heading</h1>
+    </div>
+  );
 }
